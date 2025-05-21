@@ -14,7 +14,7 @@ public class DateServlet extends HttpServlet{
 		PrintWriter pw = response.getWriter();
 		response.setContentType("text/html");
 		
-		pw.println("<h1>Date and time is :: "+new Date()+"</h1>");
+		pw.println("<h1 style='color: #6a0dad;' >Date and time is : "+new Date()+"</h1>");
 		
 		pw.println("<br> <a href='index.html'>home</a>");
 		pw.close();
